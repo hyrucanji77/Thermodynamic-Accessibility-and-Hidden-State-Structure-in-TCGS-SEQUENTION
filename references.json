@@ -1,0 +1,289 @@
+[
+  {
+    "number": 1,
+    "key": "Sagawa2010",
+    "authors": "T. Sagawa and M. Ueda",
+    "title": "Generalized Jarzynski equality under nonequilibrium feedback control",
+    "metadata": "Physical Review Letters 104, 090602 (2010)",
+    "doi": "10.1103/PhysRevLett.104.090602",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/0907.4914"
+  },
+  {
+    "number": 2,
+    "key": "Sagawa2012",
+    "authors": "T. Sagawa and M. Ueda",
+    "title": "Nonequilibrium thermodynamics of feedback control",
+    "metadata": "Physical Review E 85, 021104 (2012)",
+    "doi": "10.1103/PhysRevE.85.021104",
+    "included_file": null,
+    "public_url": null
+  },
+  {
+    "number": 3,
+    "key": "Esposito2011",
+    "authors": "M. Esposito and C. Van den Broeck",
+    "title": "Second law and Landauer principle far from equilibrium",
+    "metadata": "EPL 95, 40004 (2011)",
+    "doi": "10.1209/0295-5075/95/40004",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/1104.5165"
+  },
+  {
+    "number": 4,
+    "key": "Abreu2011",
+    "authors": "D. Abreu and U. Seifert",
+    "title": "Extracting work from a single heat bath through feedback",
+    "metadata": "EPL 94, 10001 (2011)",
+    "doi": "10.1209/0295-5075/94/10001",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/1102.3826"
+  },
+  {
+    "number": 5,
+    "key": "Muruga2026",
+    "authors": "L. Muruga, F. Ginot, S. A. M. Loos and C. Bechinger",
+    "title": "The extraction of work from hidden degrees of freedom",
+    "metadata": "Nature Physics; 16 October 2026",
+    "doi": "10.1038/s41567-026-03442-w",
+    "included_file": "references/s41567-026-03442-w.pdf",
+    "public_url": null
+  },
+  {
+    "number": 6,
+    "key": "MurugaSI",
+    "authors": "L. Muruga, F. Ginot, S. A. M. Loos and C. Bechinger",
+    "title": "Supplementary information: The extraction of work from hidden degrees of freedom",
+    "metadata": "Supplementary Notes 1–6, Tables 1–3, Figures 1–6; 2026",
+    "doi": "10.1038/s41567-026-03442-w",
+    "included_file": "references/41567_2026_3442_MOESM1_ESM.pdf",
+    "public_url": null
+  },
+  {
+    "number": 7,
+    "key": "StillDaimer2022",
+    "authors": "S. Still and D. Daimer",
+    "title": "Partially observable Szilárd engines",
+    "metadata": "New Journal of Physics 24, 073031 (2022)",
+    "doi": "10.1088/1367-2630/ac6b30",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/2103.15803"
+  },
+  {
+    "number": 8,
+    "key": "Still2020",
+    "authors": "S. Still",
+    "title": "Thermodynamic cost and benefit of memory",
+    "metadata": "Physical Review Letters 124, 050601 (2020)",
+    "doi": "10.1103/PhysRevLett.124.050601",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/1705.00612"
+  },
+  {
+    "number": 9,
+    "key": "ArellanoFoundation",
+    "authors": "H. Arellano-Peña",
+    "title": "Timeless Counterspace & Shadow Gravity—A Unified Framework: 4D-Counterduction, Foundational Consistency, and Cartographic Inquiry",
+    "metadata": "Preprints, version 2; 11 August 2026; not peer reviewed; CC BY 4.0",
+    "doi": "10.20944/preprints202511.1472.v2",
+    "included_file": "references/Arellano_2026_Timeless_Counterspace_v2.pdf",
+    "public_url": null
+  },
+  {
+    "number": 10,
+    "key": "ArellanoWhy",
+    "authors": "H. Arellano-Peña",
+    "title": "Why 4D-Counterspace Exists: A Formal Logical Demonstration within the TCGS–SEQUENTION Framework",
+    "metadata": "ResearchGate preprint; 28 April 2026; CC BY 4.0",
+    "doi": "10.13140/RG.2.2.29353.76641",
+    "included_file": "references/Arellano_2026_Why_4D_Counterspace_Exists.pdf",
+    "public_url": null
+  },
+  {
+    "number": 11,
+    "key": "ArellanoEnergy",
+    "authors": "H. Arellano-Peña",
+    "title": "Energy as Functional, Not Substance: Noether Charges, Mass–Energy Equivalence, Boundary-Conditioned Spectra, and Falsifiable Storage Tests within TCGS–SEQUENTION",
+    "metadata": "Preprint manuscript; 20 August 2026; CC BY 4.0; no DOI verified",
+    "doi": null,
+    "included_file": "references/Arellano_2026_Energy_as_Functional.pdf",
+    "public_url": null
+  },
+  {
+    "number": 12,
+    "key": "Caspers2023",
+    "authors": "J. Caspers, N. Ditz, K. Krishna Kumar, F. Ginot, C. Bechinger, M. Fuchs and M. Krüger",
+    "title": "How are mobility and friction related in viscoelastic fluids?",
+    "metadata": "The Journal of Chemical Physics 158, 024901 (2023)",
+    "doi": "10.1063/5.0129639",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/2210.02801"
+  },
+  {
+    "number": 13,
+    "key": "Ginot2025",
+    "authors": "F. Ginot and C. Bechinger",
+    "title": "Energy recuperation of driven colloids in non-Markovian baths",
+    "metadata": "Nature Communications 16, 10114 (2025)",
+    "doi": "10.1038/s41467-025-66191-z",
+    "included_file": null,
+    "public_url": "https://www.nature.com/articles/s41467-025-66191-z"
+  },
+  {
+    "number": 14,
+    "key": "ArellanoMeta",
+    "authors": "H. Arellano-Peña",
+    "title": "The Metamathematical Extrinsic Constitutive Law: Origin–MIND, Ontological Closure, and Gravity as a Privileged Shadow Expression in TCGS–SEQUENTION",
+    "metadata": "Preprint manuscript; 19 August 2026; CC BY 4.0; no DOI verified",
+    "doi": null,
+    "included_file": "references/Arellano_2026_Metamathematical_ECL.pdf",
+    "public_url": null
+  },
+  {
+    "number": 15,
+    "key": "ArellanoMinkowski",
+    "authors": "H. Arellano-Peña",
+    "title": "Escaping the Minkowski Trap: Why Time Cannot Be a Dimension",
+    "metadata": "Attached manuscript: 9 June 2026; CC BY 4.0. DOI points to the later public version 3, posted 29 June 2026; these are distinct versions.",
+    "doi": "10.20944/preprints202512.0768.v3",
+    "included_file": "references/Arellano_2026_Minkowski_Trap_09_June.pdf",
+    "public_url": null
+  },
+  {
+    "number": 16,
+    "key": "ArellanoViscoelastic",
+    "authors": "H. Arellano-Peña",
+    "title": "Viscoelastic Counterspace: Natural Induction as the Micro-Physics of the Extrinsic Constitutive Law",
+    "metadata": "Preprints, version 1; 22 December 2025; not peer reviewed; CC BY 4.0",
+    "doi": "10.20944/preprints202512.1965.v1",
+    "included_file": "references/Arellano_2025_Viscoelastic_Counterspace_v1.pdf",
+    "public_url": null
+  },
+  {
+    "number": 17,
+    "key": "Loos2024",
+    "authors": "S. A. M. Loos, S. Monter, F. Ginot and C. Bechinger",
+    "title": "Universal symmetry of optimal control at the microscale",
+    "metadata": "Physical Review X 14, 021032 (2024)",
+    "doi": "10.1103/PhysRevX.14.021032",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/2311.00470",
+    "additional_urls": [
+      "https://journals.aps.org/prx/pdf/10.1103/PhysRevX.14.021032",
+      "https://arxiv.org/pdf/2311.00470"
+    ],
+    "note": "Published PRX version (24 May 2024): coupled model, Eqs. (9)–(10), p.021032-5; Appendix E, Eqs. (E1)–(E10), p.021032-13, and (E11)–(E13), p.021032-14. Equilibrium initial means follow (E10). The measurement-conditioned protocol caveat is the last paragraph of Appendix D.4 after (D25), p.021032-13. These locators were checked against the published PDF. The full paper is linked rather than attached as a local PDF."
+  },
+  {
+    "number": 18,
+    "key": "Schuttler2025",
+    "authors": "J. Schüttler, R. Garcia-Millan, M. E. Cates and S. A. M. Loos",
+    "title": "Active particles in moving traps: Minimum work protocols and information efficiency of work extraction",
+    "metadata": "Physical Review E 112, 024119 (2025)",
+    "doi": "10.1103/4q4f-1dpx",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/2501.18613"
+  },
+  {
+    "number": 19,
+    "key": "MurugaData",
+    "authors": "L. Chinnakanna Muruga",
+    "title": "The extraction of work from hidden degrees of freedom",
+    "metadata": "Zenodo dataset, version 2 (2026). Repository archives are linked, not included or reproduced.",
+    "doi": "10.5281/zenodo.19881972",
+    "included_file": null,
+    "public_url": "https://zenodo.org/records/19881972"
+  },
+  {
+    "number": 20,
+    "key": "MurugaSD4",
+    "authors": "L. Muruga, F. Ginot, S. A. M. Loos and C. Bechinger",
+    "title": "Source data for Figure 4: The extraction of work from hidden degrees of freedom",
+    "metadata": "Publisher source workbook (2026); original bytes preserved",
+    "doi": "10.1038/s41567-026-03442-w",
+    "included_file": "data/41567_2026_3442_MOESM6_ESM.xlsx",
+    "public_url": null
+  },
+  {
+    "number": 21,
+    "key": "MurugaSD3",
+    "authors": "L. Muruga, F. Ginot, S. A. M. Loos and C. Bechinger",
+    "title": "Source data for Figure 3: The extraction of work from hidden degrees of freedom",
+    "metadata": "Publisher source workbook (2026); original bytes preserved",
+    "doi": "10.1038/s41567-026-03442-w",
+    "included_file": "data/41567_2026_3442_MOESM5_ESM.xlsx",
+    "public_url": null
+  },
+  {
+    "number": 22,
+    "key": "MurugaSD1",
+    "authors": "L. Muruga, F. Ginot, S. A. M. Loos and C. Bechinger",
+    "title": "Source data for Figure 1: The extraction of work from hidden degrees of freedom",
+    "metadata": "Publisher source workbook (2026); original bytes preserved",
+    "doi": "10.1038/s41567-026-03442-w",
+    "included_file": "data/41567_2026_3442_MOESM3_ESM.xlsx",
+    "public_url": null
+  },
+  {
+    "number": 23,
+    "key": "MurugaSD2",
+    "authors": "L. Muruga, F. Ginot, S. A. M. Loos and C. Bechinger",
+    "title": "Source data for Figure 2: The extraction of work from hidden degrees of freedom",
+    "metadata": "Publisher source workbook (2026); original bytes preserved",
+    "doi": "10.1038/s41567-026-03442-w",
+    "included_file": "data/41567_2026_3442_MOESM4_ESM.xlsx",
+    "public_url": null
+  },
+  {
+    "number": 24,
+    "key": "SchmiedlSeifert2007",
+    "authors": "T. Schmiedl and U. Seifert",
+    "title": "Optimal finite-time processes in stochastic thermodynamics",
+    "metadata": "Physical Review Letters 98, 108301 (2007)",
+    "doi": "10.1103/PhysRevLett.98.108301",
+    "included_file": null,
+    "public_url": "https://arxiv.org/abs/cond-mat/0701554",
+    "additional_urls": [
+      "https://arxiv.org/pdf/cond-mat/0701554"
+    ],
+    "note": "Direct moving-trap comparison result, Eqs. (5)–(9); conditional initial means in the present paper are an explicitly derived extension."
+  },
+  {
+    "number": 25,
+    "key": "ArellanoNoFinalMap",
+    "authors": "H. Arellano-Peña",
+    "title": "No Final Map: Non-Exhaustive Commensurability, Empirical Anchors, and the Present Epistemic Status of TCGS–SEQUENTION",
+    "metadata": "Preprint (August 2026); 71-page reference copy, §2.4 p.5 and §8.1 p.19. Public archival record: version 1, deposited 15 August 2026 (UTC).",
+    "doi": null,
+    "included_file": "references/Arellano_No_Final_Map.pdf",
+    "public_url": "https://philpapers.org/versions/ARENFM",
+    "note": "SR (source-reported result) is explicitly included in §2.4, p.5 of the attached 71-page copy. That copy has no printed revision date. The public archive deposit date is verified from the archival history, but correspondence between the attached copy and the archive PDF has not been established; the archive date is not assigned to the copy as its revision date. The exact copy is identified by SHA-256 in REFERENCE_MANIFEST.sha256.",
+    "additional_urls": [
+      "https://philarchive.org/archive/ARENFMv1"
+    ],
+    "source_copy_sha256": "d8faa97999e5893fd6058aedee61b4ee0f2647b29ed3e8d2238bdb759ab1228c",
+    "archive_version": "1",
+    "archive_deposited_at_utc": "2026-08-15T00:55:13Z",
+    "archive_copy_equivalence_verified": false
+  },
+  {
+    "number": 26,
+    "key": "ArellanoCorridor",
+    "authors": "H. Arellano-Peña",
+    "title": "Corridor Navigation in a Static Counterspace: Formalizing Admissible Path Selection, Invariant Rigidity, and Effective Superluminality Within the Deterministic Geometry of TCGS-SEQUENTION",
+    "metadata": "Preprint manuscript dated 31 January 2026; CC BY 4.0",
+    "doi": null,
+    "included_file": "references/Arellano_2026_Corridor_Navigation.pdf",
+    "public_url": null
+  },
+  {
+    "number": 27,
+    "key": "ArellanoBiology",
+    "authors": "H. Arellano-Peña",
+    "title": "Beyond Genes as Invariants: Corridor-Preserving Functional Organization as the Genomic Signature of the Territory",
+    "metadata": "Draft v1.0 — Cartographic Edition; 26 March 2026; CC BY 4.0",
+    "doi": null,
+    "included_file": "references/Arellano_Beyond_Genes_as_Invariants.pdf",
+    "public_url": null
+  }
+]

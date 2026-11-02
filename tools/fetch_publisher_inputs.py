@@ -12,7 +12,7 @@ import sys
 import urllib.request
 
 ROOT = Path(__file__).resolve().parents[1]
-BASE = "https://static-content.springer-cdn.com/esm/art%3A10.1038%2Fs41567-026-03442-w/MediaObjects/"
+BASE = "https://static-content.springer.com/esm/art%3A10.1038%2Fs41567-026-03442-w/MediaObjects/"
 
 def retrieve(relative: str, url: str, expected: str) -> None:
     target = ROOT / relative
@@ -53,7 +53,7 @@ def main() -> int:
             print(f"NOT RETRIEVED: {relative}: {exc}", file=sys.stderr)
     if args.with_papers:
         sources = {
-            "references/s41567-026-03442-w.pdf": "https://www.nature.com/articles/s41567-026-03442-w.pdf",
+            "references/s41567-026-03442-w.pdf": "https://www.nature.com/articles/s41567-026-03442-w.pdf?error=cookies_not_supported",
             "references/41567_2026_3442_MOESM1_ESM.pdf": BASE + "41567_2026_3442_MOESM1_ESM.pdf",
             "references/41567_2026_3442_MOESM2_ESM.pdf": BASE + "41567_2026_3442_MOESM2_ESM.pdf",
         }
