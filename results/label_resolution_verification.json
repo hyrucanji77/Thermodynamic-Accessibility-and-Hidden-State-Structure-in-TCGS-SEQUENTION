@@ -1,0 +1,219 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "checks": [
+    {
+      "name": "paired_time_grids",
+      "residual": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "sample_count_300",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "constant_normalization_B",
+      "residual": 5.329070518200751e-15,
+      "tolerance": 2e-13,
+      "passed": true
+    },
+    {
+      "name": "constant_normalization_D",
+      "residual": 5.995204332975845e-15,
+      "tolerance": 2e-13,
+      "passed": true
+    },
+    {
+      "name": "constant_normalization_F",
+      "residual": 5.329070518200751e-15,
+      "tolerance": 2e-13,
+      "passed": true
+    },
+    {
+      "name": "constant_normalization_H",
+      "residual": 9.103828801926284e-15,
+      "tolerance": 2e-13,
+      "passed": true
+    },
+    {
+      "name": "ramp_closed_form_vs_ODE_00",
+      "residual": 1.0619727319749472e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "ramp_value_below_ideal_00",
+      "residual": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "ramp_closed_form_vs_ODE_01",
+      "residual": 1.0323408794477018e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "ramp_value_below_ideal_01",
+      "residual": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "ramp_closed_form_vs_ODE_10",
+      "residual": 1.0376199899297944e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "ramp_value_below_ideal_10",
+      "residual": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "ramp_closed_form_vs_ODE_11",
+      "residual": 1.850297692840286e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "ramp_value_below_ideal_11",
+      "residual": 0.0,
+      "tolerance": 2e-12,
+      "passed": true
+    },
+    {
+      "name": "two_scores_select_same_permutation",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "selected_permutation_regression",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "work_score_unique_minimum",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "denominator_score_unique_minimum",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "branch_10_jump_negative",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "branch_10_initial_jump_value",
+      "residual": 1.4210854715202004e-14,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "Metzler_offdiagonal_positivity",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "positive_semigroup_12",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "input_file_unchanged",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "mean_inversion_round_trip_B",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "baseline_vs_mean_residual_identity_B",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "mean_inversion_round_trip_D",
+      "residual": 6.938893903907228e-18,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "baseline_vs_mean_residual_identity_D",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "mean_inversion_round_trip_F",
+      "residual": 4.440892098500626e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "baseline_vs_mean_residual_identity_F",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "mean_inversion_round_trip_H",
+      "residual": 1.3877787807814457e-17,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "baseline_vs_mean_residual_identity_H",
+      "residual": 1.1102230246251565e-16,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "denominator_score_component_sum",
+      "residual": 0.0,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "BF_swap_preserves_D_H_components",
+      "residual": 0.0,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "BF_swap_accounts_for_full_denominator_margin",
+      "residual": 1.734723475976807e-17,
+      "tolerance": 2e-14,
+      "passed": true
+    },
+    {
+      "name": "BF_swap_is_denominator_runner_up",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "n_checks": 35,
+  "all_passed": true
+}

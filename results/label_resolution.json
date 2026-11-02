@@ -1,0 +1,203 @@
+{
+  "method": "Retrospective no-branch-fit parameter transfer; two descriptive scores, no statistical independence assumed",
+  "workbook_sha256": "e3d8b965443b3a964f53a155803a62bcda09b3512863b3fa8a8a7f8205f11388",
+  "sample_count": 300,
+  "window_s": [
+    0,
+    3
+  ],
+  "branches": [
+    {
+      "state": "00",
+      "probability": 0.8450122715878292,
+      "mean_x_nm": -12.227984885867118,
+      "mean_y_nm": -15.63391262342336,
+      "B_kBT": 0.026711457073485507,
+      "speed_nm_s": 45.0,
+      "W_3s_kBT": -2.20747286946098,
+      "W_ideal_3s_kBT": 0.02858458768185255,
+      "model_peak_time_s": 0.0,
+      "model_peak_ratio": 0.0,
+      "initial_jump_nm": -8.603452870974953
+    },
+    {
+      "state": "01",
+      "probability": 0.06209389100659664,
+      "mean_x_nm": 91.67408460549689,
+      "mean_y_nm": 77.75636484958397,
+      "B_kBT": 1.501346571362724,
+      "speed_nm_s": 45.0,
+      "W_3s_kBT": 0.19805496023231683,
+      "W_ideal_3s_kBT": 1.5326241681387471,
+      "model_peak_time_s": 1.5739911318966484,
+      "model_peak_ratio": 0.3990075483219219,
+      "initial_jump_nm": 106.48509197754349
+    },
+    {
+      "state": "10",
+      "probability": 0.06209389100659665,
+      "mean_x_nm": 24.764443708625045,
+      "mean_y_nm": 71.11442577160516,
+      "B_kBT": 0.10955821449452445,
+      "speed_nm_s": 25.0,
+      "W_3s_kBT": 0.39842170584119835,
+      "W_ideal_3s_kBT": 0.4564518585407001,
+      "model_peak_time_s": 2.5455799279935665,
+      "model_peak_ratio": 3.7533257932616486,
+      "initial_jump_nm": -24.560441263094013
+    },
+    {
+      "state": "11",
+      "probability": 0.03079994639897761,
+      "mean_x_nm": 100.73640905250419,
+      "mean_y_nm": 128.79507390825532,
+      "B_kBT": 1.8128452098702437,
+      "speed_nm_s": 45.0,
+      "W_3s_kBT": 1.4193512490919848,
+      "W_ideal_3s_kBT": 1.9399702798916083,
+      "model_peak_time_s": 2.5740372779059264,
+      "model_peak_ratio": 0.8030306536346759,
+      "initial_jump_nm": 70.87684158623458
+    }
+  ],
+  "columns": [
+    {
+      "column": "B",
+      "stored_state": "00",
+      "inferred_state": "11",
+      "inferred_B_kBT": 1.7700303055420328,
+      "model_B_kBT": 1.8128452098702437,
+      "relative_B_residual": -0.02361751797401135,
+      "implied_abs_mean_x_nm": 99.5397292065179,
+      "model_mean_x_nm": 100.73640905250419,
+      "model_abs_mean_x_nm": 100.73640905250419,
+      "abs_mean_offset_nm": -1.1966798459862815,
+      "denominator_score_component": 0.000571252161100485,
+      "workbook_peak_time_s": 2.41,
+      "workbook_peak_ratio": 0.800745927472216,
+      "model_peak_time_s": 2.5740372779059264,
+      "model_peak_ratio": 0.8030306536346759,
+      "absolute_curve_RMSE_kBT": 0.029882311933468794
+    },
+    {
+      "column": "D",
+      "stored_state": "01",
+      "inferred_state": "00",
+      "inferred_B_kBT": 0.05181763292121129,
+      "model_B_kBT": 0.026711457073485507,
+      "relative_B_residual": 0.9399028955498963,
+      "implied_abs_mean_x_nm": 17.03118587965908,
+      "model_mean_x_nm": -12.227984885867118,
+      "model_abs_mean_x_nm": 12.227984885867118,
+      "abs_mean_offset_nm": 4.803200993791963,
+      "denominator_score_component": 0.4390890103478402,
+      "workbook_peak_time_s": 0.01,
+      "workbook_peak_ratio": -0.0682672355401564,
+      "model_peak_time_s": 0.0,
+      "model_peak_ratio": 0.0,
+      "absolute_curve_RMSE_kBT": 0.4668195875094315
+    },
+    {
+      "column": "F",
+      "stored_state": "10",
+      "inferred_state": "01",
+      "inferred_B_kBT": 1.6834949534634398,
+      "model_B_kBT": 1.501346571362724,
+      "relative_B_residual": 0.12132334104269171,
+      "implied_abs_mean_x_nm": 97.07603135331672,
+      "model_mean_x_nm": 91.67408460549689,
+      "model_abs_mean_x_nm": 91.67408460549689,
+      "abs_mean_offset_nm": 5.401946747819835,
+      "denominator_score_component": 0.013112435283078648,
+      "workbook_peak_time_s": 1.63,
+      "workbook_peak_ratio": 0.409564373473328,
+      "model_peak_time_s": 1.5739911318966484,
+      "model_peak_ratio": 0.3990075483219219,
+      "absolute_curve_RMSE_kBT": 0.06832075863806539
+    },
+    {
+      "column": "H",
+      "stored_state": "11",
+      "inferred_state": "10",
+      "inferred_B_kBT": 0.10925740986489497,
+      "model_B_kBT": 0.10955821449452445,
+      "relative_B_residual": -0.0027456145668064424,
+      "implied_abs_mean_x_nm": 24.730423532308855,
+      "model_mean_x_nm": 24.764443708625045,
+      "model_abs_mean_x_nm": 24.764443708625045,
+      "abs_mean_offset_nm": -0.03402017631619003,
+      "denominator_score_component": 7.559149110715505e-06,
+      "workbook_peak_time_s": 2.19,
+      "workbook_peak_ratio": 3.00520533982594,
+      "model_peak_time_s": 2.5455799279935665,
+      "model_peak_ratio": 3.7533257932616486,
+      "absolute_curve_RMSE_kBT": 0.0629216697258469
+    }
+  ],
+  "selected_mapping": [
+    "11",
+    "00",
+    "01",
+    "10"
+  ],
+  "best_work_score": 0.05686008560773355,
+  "runner_up_work_score": 0.0845510639586495,
+  "runner_up_work_mapping": [
+    "11",
+    "00",
+    "10",
+    "01"
+  ],
+  "best_denominator_score": 0.45278025694113005,
+  "runner_up_denominator_score": 0.47168079301609345,
+  "runner_up_denominator_mapping": [
+    "01",
+    "00",
+    "11",
+    "10"
+  ],
+  "score_diagnostics": {
+    "column_order": [
+      "B",
+      "D",
+      "F",
+      "H"
+    ],
+    "denominator_components": [
+      0.000571252161100485,
+      0.4390890103478402,
+      0.013112435283078648,
+      7.559149110715505e-06
+    ],
+    "denominator_D_fraction": 0.9697618295334154,
+    "denominator_runner_up_gap": 0.018900536074963392,
+    "denominator_runner_up_gap_relative_to_minimum": 0.041743286694191806,
+    "BF_swapped_mapping": [
+      "01",
+      "00",
+      "11",
+      "10"
+    ],
+    "BF_swapped_denominator_components": [
+      0.02710443580180687,
+      0.4390890103478402,
+      0.0054797877173356725,
+      7.559149110715505e-06
+    ],
+    "BF_swapped_work_score": 0.28998073364733473,
+    "BF_swap_work_gap": 0.2331206480396012,
+    "min_denominator_score_with_wrong_D": 2.558467263985788,
+    "min_denominator_score_with_wrong_H": 2.558467263985788,
+    "interpretation": "Descriptive separation conditional on fixed parameters; not two statistically independent confirmations."
+  },
+  "mean_inversion_assumptions": "Transferred trap stiffness and temperature; baseline inversion determines only |mean_x|, not its sign.",
+  "new_fitted_parameters": 0,
+  "limitations": [
+    "Source parameters were calibrated upstream, not parameter-free physics",
+    "Retrospective assignment is not a prospective or independent replication",
+    "Column D normalization differs by approximately 94%, corresponding to a +4.8032 nm mean-magnitude offset under transferred stiffness",
+    "The two scores reuse the same data and model; their minima are not independent statistical confirmations",
+    "Bandwidth has not been modeled as a cause of the residuals",
+    "Pointwise error bars do not determine uncertainty of curve maxima"
+  ]
+}

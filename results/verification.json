@@ -1,0 +1,430 @@
+{
+  "python": "3.13.5",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "count": 70,
+  "passed": 70,
+  "checks": [
+    {
+      "name": "Riccati_ODE_ratio_0.1",
+      "residual": 1.6240384808568424e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "eta_monotonic_ratio_0.1",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "eta_range_ratio_0.1",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Riccati_ODE_ratio_1",
+      "residual": 1.4100290186990093e-11,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "eta_monotonic_ratio_1",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "eta_range_ratio_1",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Riccati_ODE_ratio_10",
+      "residual": 4.6211708264033546e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "eta_monotonic_ratio_10",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "eta_range_ratio_10",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Riccati_ODE_ratio_44.1176",
+      "residual": 4.447758712259701e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "eta_monotonic_ratio_44.1176",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "eta_range_ratio_44.1176",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "Riccati_ODE_ratio_100",
+      "residual": 5.911552112023186e-12,
+      "tolerance": 2e-09,
+      "passed": true
+    },
+    {
+      "name": "eta_monotonic_ratio_100",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "eta_range_ratio_100",
+      "residual": 2.220446049250313e-16,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(20.0, 80.0)_0.1",
+      "residual": 3.7670041733187196e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(20.0, 80.0)_0.1",
+      "residual": 7.694025071191737e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(20.0, 80.0)_1",
+      "residual": 1.6367579164528671e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(20.0, 80.0)_1",
+      "residual": 1.2737655085769115e-12,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(20.0, 80.0)_3",
+      "residual": 2.849538973513301e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(20.0, 80.0)_3",
+      "residual": 1.0307991362519705e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(20.0, 80.0)_10",
+      "residual": 2.1716940964805913e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(20.0, 80.0)_10",
+      "residual": 3.367636968697537e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(-20.0, 5.0)_0.1",
+      "residual": 1.1225456562325124e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(-20.0, 5.0)_0.1",
+      "residual": 2.0479712158597724e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(-20.0, 5.0)_1",
+      "residual": 2.9404759653763675e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(-20.0, 5.0)_1",
+      "residual": 1.8875497272467367e-13,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(-20.0, 5.0)_3",
+      "residual": 1.7404854525720444e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(-20.0, 5.0)_3",
+      "residual": 9.336557621549262e-15,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(-20.0, 5.0)_10",
+      "residual": 3.866845974474015e-14,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(-20.0, 5.0)_10",
+      "residual": 6.017492339900247e-15,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(30.0, 30.0)_0.1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(30.0, 30.0)_0.1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(30.0, 30.0)_1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(30.0, 30.0)_1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(30.0, 30.0)_3",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(30.0, 30.0)_3",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(30.0, 30.0)_10",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(30.0, 30.0)_10",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(0.0, 0.0)_0.1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(0.0, 0.0)_0.1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(0.0, 0.0)_1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(0.0, 0.0)_1",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(0.0, 0.0)_3",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(0.0, 0.0)_3",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "optimal_work_integral_(0.0, 0.0)_10",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "energy_balance_(0.0, 0.0)_10",
+      "residual": 0.0,
+      "tolerance": 2e-08,
+      "passed": true
+    },
+    {
+      "name": "discrete_lower_bound_N5",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_convergence_N5",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_lower_bound_N10",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_convergence_N10",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_lower_bound_N20",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_convergence_N20",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_lower_bound_N40",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_convergence_N40",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_lower_bound_N80",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_convergence_N80",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_lower_bound_N160",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_convergence_N160",
+      "residual": 0.0,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "discrete_relative_error_N160",
+      "residual": 0.0003922251385110199,
+      "tolerance": 0.0005,
+      "passed": true
+    },
+    {
+      "name": "equilibrium_Lyapunov",
+      "residual": 7.275957614183426e-12,
+      "tolerance": 1e-09,
+      "passed": true
+    },
+    {
+      "name": "constant_speed_below_optimum_00",
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "constant_speed_below_optimum_01",
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "constant_speed_below_optimum_10",
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "constant_speed_below_optimum_11",
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "conditional_probabilities_sum",
+      "residual": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "conditional_means_recombine",
+      "residual": 1.7763568394002505e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "conditional_second_moment_recombines",
+      "residual": 3.2495106257955306e-16,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "measurement_refinement_identity",
+      "residual": 6.74606764562808e-18,
+      "tolerance": 1e-11,
+      "passed": true
+    },
+    {
+      "name": "covariance_KL_contraction",
+      "residual": 0.0,
+      "tolerance": 1e-12,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+[
+  {
+    "file": "41567_2026_3442_MOESM3_ESM.xlsx",
+    "sha256": "28c14b4516c0bb6c1451d01e6f462f93480bbeff94b1950f35900f5cf1c435a9",
+    "sheets": [
+      {
+        "name": "Equilibrium_dist",
+        "data_rows": 50,
+        "header": [
+          "centers (nm)",
+          "ρ_eq(x)",
+          "ρ(x | 0)",
+          "ρ(x | 1)",
+          "ρ(x | 00)",
+          "ρ(x | 01)",
+          "ρ(x | 10)",
+          "ρ(x | 11)"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "41567_2026_3442_MOESM4_ESM.xlsx",
+    "sha256": "f5f01ba19b762d8c3a3bf30f826f44cdabea45a6ec574f3213e3dfc7d3b63e6c",
+    "sheets": [
+      {
+        "name": "Figure_2a",
+        "data_rows": 30001,
+        "header": [
+          "Time(s)",
+          "E(|00>)",
+          "E(|01>)",
+          "E(|10>)",
+          "E(|11>)"
+        ]
+      },
+      {
+        "name": "Figure_2b",
+        "data_rows": 30001,
+        "header": [
+          "Time(s)",
+          "E(|00>)",
+          "E(|01>)",
+          "E(|10>)",
+          "E(|11>)",
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Inset",
+        "data_rows": 30001,
+        "header": [
+          "Time(s)",
+          "E(|0>)",
+          "E(|1>)"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "41567_2026_3442_MOESM5_ESM.xlsx",
+    "sha256": "e3b3a732476f12988dd10437ae68853bbb36b9ef48a23979f361498c2a1b51ee",
+    "sheets": [
+      {
+        "name": "Figure_3a",
+        "data_rows": 30001,
+        "header": [
+          "Time (s)",
+          "I(|01>)",
+          "Tilde_I (|01>)",
+          "I(|11>)",
+          "Tilde_I (|11>)"
+        ]
+      },
+      {
+        "name": "Figure_3b",
+        "data_rows": 30001,
+        "header": [
+          "Time (s)",
+          "I(|00>)",
+          "Tilde_I (|00>)",
+          "I(|10>)",
+          "Tilde_I (|10>)"
+        ]
+      },
+      {
+        "name": "Figure_3c",
+        "data_rows": 30001,
+        "header": [
+          "Time (s)",
+          "I",
+          "Tilde_I"
+        ]
+      },
+      {
+        "name": "Figure_3d",
+        "data_rows": 14,
+        "header": [
+          "delta_t (s)",
+          "Φ_total",
+          "Φ_00",
+          "Φ_01",
+          "Φ_10",
+          "Φ_11"
+        ]
+      }
+    ]
+  },
+  {
+    "file": "41567_2026_3442_MOESM6_ESM.xlsx",
+    "sha256": "e3d8b965443b3a964f53a155803a62bcda09b3512863b3fa8a8a7f8205f11388",
+    "sheets": [
+      {
+        "name": "Figure_4a",
+        "data_rows": 301,
+        "header": [
+          "t",
+          "<W_11 > (dt = 0s)",
+          "sigma(W_11 dt = 0s)",
+          "<W_11 > (dt = 0.02s)",
+          "sigma(W_11 dt = 0.02s)",
+          "<W_11 > (dt = 1s)",
+          "sigma(W_11 dt = 1s)",
+          "<W_11 > (dt = 10s)",
+          "sigma(W_11 dt = 10s)"
+        ]
+      },
+      {
+        "name": "Inset_4a",
+        "data_rows": 11,
+        "header": [
+          "delta_t",
+          "min_work",
+          "errors",
+          "t_max",
+          null,
+          null
+        ]
+      },
+      {
+        "name": "Figure_4b",
+        "data_rows": 451,
+        "header": [
+          "t",
+          "<W_00/W*  > (dt = 1s)",
+          "sigma(W_00/W* (dt = 1s)",
+          "<W_01/W*  > (dt = 1s)",
+          "sigma(W_01/W* (dt = 1s)",
+          "<W_10/W*  > (dt = 1s)",
+          "sigma(W_10/W* (dt = 1s)",
+          "<W_11/W*  > (dt = 1s)",
+          "sigma(W_11/W* (dt = 1s)"
+        ]
+      },
+      {
+        "name": "Inset_4b",
+        "data_rows": 451,
+        "header": [
+          "t",
+          "<W_00 > (dt = 1s)",
+          "sigma(W_00 (dt = 1s)",
+          "<W_01  > (dt = 1s)",
+          "sigma(W_01(dt = 1s)",
+          "<W_10 > (dt = 1s)",
+          "sigma(W_10 (dt = 1s)",
+          "<W_11  > (dt = 1s)",
+          "sigma(W_11 (dt = 1s)"
+        ]
+      }
+    ]
+  }
+]
