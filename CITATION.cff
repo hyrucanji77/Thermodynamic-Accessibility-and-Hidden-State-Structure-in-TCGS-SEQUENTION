@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this software or its results."
+title: "Thermodynamic Accessibility and Hidden-State Structure in TCGS–SEQUENTION: Environmental Memory, Epistemic Information, and an Exact Finite-Time Work Law"
+authors:
+  - family-names: "Arellano-Peña"
+    given-names: "Henry"
+version: "4"
+date-released: "2026-11-02"
+license: CC-BY-4.0
+type: software
+repository-code: "https://github.com/hyrucanji77/Thermodynamic-Accessibility-and-Hidden-State-Structure-in-TCGS-SEQUENTION"
+keywords:
+  - stochastic thermodynamics
+  - hidden degrees of freedom
+  - optimal control
+  - information thermodynamics
+  - TCGS-SEQUENTION

@@ -1,0 +1,6 @@
+Copyright (c) 2026 Henry Arellano-Peña.
+
+The new manuscript and original accompanying code are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Included third-party references and source data retain their original copyright and licenses. Attribution is provided in the manuscript and REFERENCE_INDEX.html. This license does not replace third-party license terms.
