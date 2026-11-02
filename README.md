@@ -1,48 +1,55 @@
 # Thermodynamic Accessibility and Hidden-State Structure in TCGS–SEQUENTION
 
-Henry Arellano-Peña — manuscript version 4, 2 November 2026
+**Henry Arellano-Peña · manuscript version 4 · 2 November 2026**
 
-## Research scope
+This repository accompanies *Thermodynamic Accessibility and Hidden-State Structure in TCGS–SEQUENTION: Environmental Memory, Epistemic Information, and an Exact Finite-Time Work Law*.
 
-This repository accompanies **Thermodynamic Accessibility and Hidden-State Structure in TCGS–SEQUENTION: Environmental Memory, Epistemic Information, and an Exact Finite-Time Work Law**.
+## Availability
 
-The paper derives the exact finite-time accessible work for the specified passive, two-coordinate harmonic model with a free final trap centre. It distinguishes the full conditional free-energy bound, the hidden conditional resource, and the work accessible under declared observation and control restrictions. The implementation also supports the retrospective, no-branch-fit comparison with the source-data workbooks of Muruga and colleagues.
+The executable numerical package is complete: the three original Python files, four original source workbooks, thirteen result files (including both verification reports), and four generated figures are present. The source workbooks and the two publisher supplementary PDFs were accepted only after exact SHA-256 verification.
 
-The complete distribution contains the unchanged 40-page version 4 manuscript (`main.pdf`), 27 numbered references, four figures, and seven tables. LaTeX sources and Overleaf archives are excluded. The mathematical results are conditional on the stated model; their TCGS–SEQUENTION interpretation is distinguished from the conventional operational explanation.
+**Eleven PDFs are not yet mirrored:** the compiled manuscript (`main.pdf`), nine individual framework references, and the exact experimental-article PDF used by the manuscript. These files are supplied in the companion PDF distribution and identified in `COMPANION_PDFS.sha256`. The publisher download did not match the recorded article checksum and was not silently substituted. A relative PDF link in the reference index may therefore refer to a companion-distribution file rather than an existing repository file.
 
-## Reproduction
+LaTeX sources, Overleaf archives, compilation containers, earlier manuscript drafts, and private editorial records are excluded.
 
-Python 3.13.5 was used with the versions in `requirements.txt`.
+## Scientific scope
+
+The paper derives the exact finite-time accessible work for the specified passive two-coordinate harmonic model with a free final trap centre. It distinguishes the total conditional free-energy bound, the hidden conditional resource, and work accessible under stated observation and control restrictions. The mathematical results are conditional on the declared model; the TCGS–SEQUENTION interpretation is distinguished from the conventional operational explanation.
+
+The unchanged version 4 manuscript has 40 pages, 27 numbered references, four figures, and seven tables. The numerical implementation also evaluates the retrospective, no-branch-fit comparison with the publisher workbooks of Muruga and colleagues. This is not independent experimental reconstruction from raw trajectories.
+
+## Reproduce the results
+
+Python 3.13.5 and the pinned dependencies in `requirements.txt` reproduce the calculations:
 
 ```sh
 python -m pip install -r requirements.txt
-python tools/fetch_publisher_inputs.py
 python code/reproduce.py
 python code/label_resolution.py
 ```
 
-The retrieval command accepts publisher files only if they match the recorded SHA-256 digests. Once the four original workbooks are present, reproduction does not require network access or random trajectory sampling.
+The original workbooks are included; the calculations do not require network access. The optional command `python tools/fetch_publisher_inputs.py` retrieves missing publisher inputs only when their bytes match the recorded checksums.
 
-- `code/accessibility.py`: exact Riccati solution, optimal mean path, constant-speed work, binary Gaussian conditioning, and independent discrete-control optimization.
-- `code/reproduce.py`: original calculations, three figures, workbook summaries, and 70 numerical checks.
-- `code/label_resolution.py`: complete ramp comparisons, all 24 label assignments, denominator reconstruction, conditional-mean magnitude inversion, optimal initial jumps, the fourth figure, and 35 additional checks.
+| File | Role |
+| --- | --- |
+| `code/accessibility.py` | Riccati solution, optimal mean path, constant-speed work, Gaussian conditioning, and independent discrete-control optimization. |
+| `code/reproduce.py` | Original calculations, three figures, workbook summaries, and 70 checks. |
+| `code/label_resolution.py` | Ramp comparisons, all 24 label assignments, conditional-mean magnitude inversion, score decomposition, initial-jump prediction, fourth figure, and 35 checks. |
 
-Both suites pass: **70/70 and 35/35, totaling 105**. These are mathematical and numerical consistency checks, not 105 independent experimental tests. Units are nanometres, seconds, and zeptojoules. Physical parameters, threshold, delay, and protocols are taken from the source values identified in the manuscript; no branch-specific fitting is performed.
+**70/70 and 35/35 checks pass, totaling 105.** Both suites were also executed successfully in [GitHub Actions](https://github.com/hyrucanji77/Thermodynamic-Accessibility-and-Hidden-State-Structure-in-TCGS-SEQUENTION/actions/runs/41544265228). These are mathematical and numerical consistency checks, not 105 independent experimental tests. The code uses nanometres, seconds, and zeptojoules. No branch-specific parameter fitting is performed.
 
-## Interpretation of the workbook comparison
+## Workbook interpretation
 
-The selected assignment is **B → 11, D → 00, F → 01, H → 10**. Original workbook headers and values are retained. This is a retrospective, no-branch-fit parameter-transfer comparison—not parameter-free physics, prospective validation, source-author confirmation, or independent reconstruction from raw experimental trajectories.
+The selected assignment is **B → 11, D → 00, F → 01, H → 10**; the original workbook labels and values are unchanged. The denominator score identifies D, H, and the B/F pair; full work curves distinguish B from F. Both scores reuse the same model and data and are not independent statistical confirmations.
 
-Conditional on transfer of stiffness and temperature, the column-D baseline residual corresponds to a +4.80320 nm conditional-mean magnitude offset; the corresponding F offset is +5.40195 nm. The inversion does not recover a sign. The denominator score separates D and H and identifies B/F as a pair; the full work curves resolve B versus F. The scores share model and data inputs and are not independent statistical confirmations. Instrument bandwidth is a possible, not established, explanation for the remaining residuals.
+Under transferred stiffness and temperature, the D baseline residual corresponds to a +4.80320 nm conditional-mean magnitude offset, compared with +5.40195 nm for F. Baseline inversion determines magnitude, not sign. Finite bandwidth is a possible, not established, explanation for the residuals. This comparison is retrospective parameter transfer, not parameter-free physics, prospective validation, or source-author confirmation of the metadata assignment.
 
-## Files and references
+## References and attribution
 
-`references.json` and `REFERENCE_INDEX.html` identify all 27 numbered references. `REFERENCE_MANIFEST.sha256` identifies the exact reference PDFs and original workbooks. Other numerical outputs and verification reports are under `results/`.
+[REFERENCE_INDEX.html](REFERENCE_INDEX.html) and [references.json](references.json) preserve all 27 numbered references and their version notes. `REFERENCE_MANIFEST.sha256` identifies the exact twelve reference PDFs and four original workbooks in the complete companion distribution. Framework papers are identified individually.
 
-The companion distribution supplies the compiled manuscript, four figure PDFs, twelve separate supporting-reference PDFs, and four original workbooks. A local path in the reference metadata identifies that exact distribution file; it does not imply that every binary has already been mirrored into this repository. The large Zenodo trajectory archives are not included or claimed to have been independently reproduced. Framework papers are distributed individually, not as compilation containers.
-
-The exact 71-page *No Final Map* copy defines SR in §2.4, p.5. The public archive record is version 1, deposited 15 August 2026; equivalence to the attached undated reference copy remains unverified. Its exact identity is recorded in the checksum manifest. The Loos et al. PRX appendix and equation locators are provided in the reference index. Loos et al. and Schmiedl–Seifert are linked, not distributed as local PDFs.
+The exact 71-page *No Final Map* copy defines SR in §2.4, p.5. Its equivalence to PhilArchive version 1, deposited 15 August 2026, remains unverified. The published Loos et al. PRX appendix and equation locators are recorded in the reference index. Loos et al. and Schmiedl–Seifert are linked, not supplied as local PDFs. Large Zenodo trajectory archives are not included or claimed to have been independently reproduced.
 
 ## License
 
-The manuscript and original code are distributed under **CC BY 4.0**. Third-party papers and data retain their own copyright, attribution, and license conditions. See `LICENSE.txt`.
+The manuscript and original code are distributed under **CC BY 4.0**. Third-party papers and data retain their original copyright, attribution, and license conditions. See [LICENSE.txt](LICENSE.txt).
